@@ -1,6 +1,7 @@
 # general
 alias ll='ls -l'
 alias grep='grep --color'
+alias apg='apg -m 16 -M NS -n 1 | xargs echo -n | pbcopy'
 
 # git
 alias g='git'
@@ -15,7 +16,6 @@ alias gcam='git commit --amend -m'
 alias gcl='git clone'
 alias gcm='git commit -m'
 alias gco='git checkout'
-alias gcob='git checkout -b'
 alias gcom='gco master'
 alias gd='git diff'
 alias gds='git diff --staged'
@@ -35,3 +35,4 @@ alias gstl='git stash list'
 alias gsts='git stash show'
 alias gum='gpull origin master'
 alias gumm='gum && gmm'
+
